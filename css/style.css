@@ -37,7 +37,13 @@ body {
   margin-top: 100px;
   text-align: center;
   color: #111;
-  text-decoration: blanchedalmond;
+}
+
+.titulo h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  color: #111;
 }
 
 ul {
