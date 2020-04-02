@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+body {
+    background-color: darkgray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: darkmagenta;
+  }
+
+#function {
+    align-items: center;
+    margin: 50px 300px;
+}
+
+#function h2 {
+    
+}
+
+#function p {
+    
+  }
+
+#function img {
+    padding: 80px 20px 50px;
+}
+
+#objective {
+    align-items: center;
+    margin: 50px 300px;
+}
+
+#objective h2 {
+    
+}
+
+#objective p {
+    
+  }
+
+#objective img {
+    padding: 80px 20px 50px;
+}
+
+#aboutus {
+    align-items: center;
+    margin: 50px 300px;
+}
+
+#aboutus h2 {
+    
+}
+
+#aboutus p {
+    
+  }
+
+#aboutus img {
+    padding: 80px 20px 50px;
+}
+
+#contacts {
+    align-items: center;
+    margin: 50px 300px;
+}
+
+#contacts h2 {
+    
+}
+
+#conctacts p {
+    
+  }
+
+#contacts img {
+    padding: 80px 20px 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
