@@ -32,18 +32,30 @@ body {
   color: black;
 }
 
-.titulo h1{
-  font-size: 50px;
-  margin-top: 100px;
+.container {
+  position: relative;
   text-align: center;
-  color: #111;
+  color: white;
+  margin-top: 50px;
 }
 
-.titulo h2 {
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h1{
+  font-size: 40px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.container h2 {
   font-size: 30px;
   margin-top: 50px;
   text-align: center;
-  color: #111;
 }
 
 ul {
